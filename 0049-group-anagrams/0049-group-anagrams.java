@@ -3,10 +3,11 @@ class Solution {
         Map<String,List<String>> res = new HashMap<>();
 
         for(String s: strs){
-            char[] charArray = s.toCharArray();
-             Arrays.sort(charArray);
-            
-            String key =Arrays.toString(charArray);
+            int[] count  = new int[26];
+            for(char c:s.toCharArray()){
+                count[c - 'a']++;
+            }
+            String key =Arrays.toString(count);
             res.putIfAbsent(key,new ArrayList<>());
             res.get(key).add(s);
         }
