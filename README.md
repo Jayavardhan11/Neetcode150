@@ -25,4 +25,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/Jayavardhan11/Neetcode150/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Jayavardhan11/Neetcode150/tree/master/0242-valid-anagram) |
+## Math
+|  |
+| ------- |
+| [0007-reverse-integer](https://github.com/Jayavardhan11/Neetcode150/tree/master/0007-reverse-integer) |
 <!---LeetCode Topics End-->
